@@ -2,51 +2,7 @@
     box-sizing: border-box;
 }
 
-html {
-    margin: 0px;
-    font-size: 12px;
-    color: black;
-}
-
 nav {
     background-color: #6799FF;
     min-height: 46px;
-}
-
-.nav-container {
-    position: relative;
-    background-color: #6799FF;
-
-}
-
-.app-nav {
-    position: relative;
-    height: 46px;
-    max-width: 1050px;
-    margin: 0 auto;
-    z-index: 15;
-}
-
-.app-nav ul {
-    list-style: none;
-}
-
-.app-nav li {
-    display: inline-block;
-}
-
-.app-nav li a {
-    display: block;
-    font-size: 1.1em;
-    height: 46px;
-    color: #fff;
-    width: 5em;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 15px;
-    top:0;
-}
-
-.app-nav .active{
-    border-bottom: 3px solid red;
 }

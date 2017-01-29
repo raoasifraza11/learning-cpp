@@ -6,11 +6,18 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+    color: #373a36;
+}
 /* Top Navigation */
 nav {
     background-color: #6799FF;
-    color: #ffffff;
     font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    min-height: 51px;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -25,12 +32,60 @@ nav li {
 
 li a {
     display: block;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #111;
+    border-bottom: 3px solid #ff3b2d;
+
+}
+
+.side-bar {
+    border: 1px solid black;
+    width: 20%;
+    position: absolute;
+    height: 1000px;
+    top: 0;
+    bottom: auto;
+    z-index: -1;
+    right: 29px;
+    left: 0;
+    box-shadow: 0 0 0 0 #c4c5c8;
+    background-color: rgba(249, 249, 249, 0.27);
+    border-right: 1px solid #c4c5c8;
+}
+
+.sid-bar-content {
+    margin-top: 51px;
+    text-align: left;
+}
+.side-bar h1 {
+    font-size: 22px;
+}
+.side-bar h1 a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #666;
+}
+
+.side-bar h2 {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #999;
+    font-weight: normal;
+}
+
+.side-bar h2 span {
+    display: block;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.side-bar a:hover {
+    background-color: #e5e5e5;
 }

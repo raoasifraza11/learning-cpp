@@ -15,7 +15,7 @@ nav {
     font-size: 1.2em;
     font-style: normal;
     font-weight: 400;
-    min-height: 51px;
+    min-height: 49px;
     position: fixed;
     width: 100%;
 }
@@ -39,11 +39,15 @@ li a {
 }
 
 nav li a:hover {
-    border-bottom: 3px solid #ff3b2d;
+    border-bottom: 3px solid #0cff39;
 
 }
 
 nav .active {
+    border-bottom: 1px solid #ff3b2d;
+}
+
+nav .active a:hover {
     border-bottom: 1px solid #ff3b2d;
 }
 
@@ -67,10 +71,16 @@ nav .active {
 }
 .side-bar h1 {
     font-size: 22px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.side-bar h1 span {
+    color: #ff6127;
 }
 .side-bar h1 a {
     display: block;
-    padding: 14px 16px;
+    padding: 5px 16px;
     text-decoration: none;
     color: #666;
 }
@@ -78,7 +88,7 @@ nav .active {
 
 .side-bar h2 {
     display: block;
-    padding: 14px 16px;
+    padding: 5px 16px;
     font-size: 22px;
     color: #999;
     font-weight: normal;
@@ -95,8 +105,36 @@ nav .active {
 .side-bar h2 span a {
     text-decoration: none;
     display: block;
-    padding: 14px 16px;
-    color: rgba(0, 0, 0, 0.71);
+    padding: 5px 16px;
+    color: #373a36;
+}
+
+.lesson h3{
+    display: block;
+    padding: 5px 16px;
+    font-size: 12px;
+}
+
+.lesson h3 span a {
+    display: block;
+    padding: 5px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #373a36;
+}
+.lesson ol li {
+    padding: 8px 14px;
+}
+
+.lesson ol li a {
+    padding: 0px 10px;
+    color: #373a36;
+    text-align: left;
+    line-height: normal;
+}
+
+.lesson ol li a:hover {
+    background-color: rgba(249, 249, 249, 0.27);
 }
 
 .side-bar a:hover {

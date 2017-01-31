@@ -39,8 +39,7 @@ li a {
 }
 
 nav li a:hover {
-    border-bottom: 3px solid #0cff39;
-
+    border-bottom: 3px solid #181eff;
 }
 
 nav .active {
